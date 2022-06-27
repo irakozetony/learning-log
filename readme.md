@@ -24,7 +24,7 @@ Irakoze Yves
 
 ## License
 
-This project is licensed under the [BSD] Licensesee the LICENSE.md file for details
+This project is licensed under the [BSD] License
 
 ## Acknowledgments
 
