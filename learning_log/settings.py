@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--4ubc92j&4_t6(r!zqs!y@1fa15ayh4tg&nrw=v)b_es@v-ym)
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "http://protected-ocean-55901.herokuapp.com",
+    "protected-ocean-55901.herokuapp.com",
     "localhost",
     "127.0.0.1",
 ]
