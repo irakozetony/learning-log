@@ -134,3 +134,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # my settings
 LOGIN_URL = 'users:login'
+
+if os.environ.get('DEBUG') == "True":
+    DEBUG = True
+elif os.environ.get('DEBUG') == "False":
+    DEBUG = False
