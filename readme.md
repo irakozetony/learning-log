@@ -1,4 +1,4 @@
-# Project Title
+# Learning log
 
 Learning log is a project to help anyone to keep track of their learning progress
 
