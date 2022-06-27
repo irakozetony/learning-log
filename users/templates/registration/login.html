@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+{% block title %}
+    <title>Login</title>
+{% endblock title %}
+
+{% block page_header %}
+    <h2>Log in to your account</h2>
+{% endblock page_header %}
+
+{% block content %}
+    <form action="{% url 'users:login' %}" class="form" method="post">
+        {% csrf_token %}
+        {% bootstrap_form form %}
+        {% buttons %}
+            <button class="btn btn-success" name="submit">Log in</button>
+        {% endbuttons %}
+
+        <input type="hidden" name="next" value="{% url 'learning_logs:index' %}">
+    </form>
+{% endblock content %}

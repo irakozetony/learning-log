@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+    <a href="{% url 'blogs:new_post' %}">New Post</a>
+    {% for post in posts %}
+        <p>
+            <a href="{% url 'blogs:post' post.id %}">{{ post.title }}</a>
+        </p>
+    {% endfor %}
+{% endblock content %}
